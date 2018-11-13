@@ -18,7 +18,6 @@ function xdot = msfartoystyring(x,u, curr)
 %
 % Author:    Christian Holden and H.H. Helgesen
 
-
 % Check of input and state dimensions
 if (length(x) ~= 6),error('x-vector must have dimension 6 !');end
 if (length(u) ~= 2),error('u-vector must have dimension 2 !');end
